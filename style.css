@@ -1,3 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: hsl(0, 0%, 98%);
+  font-family: 'Poppins', sans-serif;
+  color: hsl(234, 12%, 34%);
+  font-size: 15px;
+}
+
+/* Custom page styles */
+.container {
+  margin: 5rem 7rem;
+  text-align: center;
+}
+
+/* Heading */
+.heading {
+  margin: 3rem 10rem;
+}
+.heading .h-light {
+  font-weight: 200;
+}
+.heading .h-bold {
+  font-weight: 600;
+}
+.heading p {
+  padding: 1rem 10.5rem;
+  color:  hsl(229, 6%, 66%);
+}
 /* Footer */
 .attribution {
   font-size: 11px;
