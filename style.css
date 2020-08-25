@@ -4,20 +4,20 @@
 }
 body {
   background: hsl(0, 0%, 98%);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: hsl(234, 12%, 34%);
   font-size: 15px;
 }
 
 /* Custom page styles */
 .container {
-  margin: 5rem 7rem;
+  margin: 5rem 13.5rem;
   text-align: center;
 }
 
 /* Heading */
 .heading {
-  margin: 3rem 10rem;
+  margin: 3rem 5rem;
 }
 .heading .h-light {
   font-weight: 200;
@@ -27,8 +27,61 @@ body {
 }
 .heading p {
   padding: 1rem 10.5rem;
-  color:  hsl(229, 6%, 66%);
+  color: hsl(229, 6%, 66%);
 }
+
+/* Card Styles */
+.card {
+  background: #fff;
+  border-radius: 1%;
+  width: 325px;
+  height: 225px;
+  text-align: left;
+  position: relative;
+  margin-top: 2rem;
+  box-shadow: 1px 1px 25px 1px rgba(0, 0, 0, 0.2);
+}
+.card-heading {
+  margin: 1.5rem;
+}
+.card-heading h3 {
+  font-size: 1.15rem;
+}
+.card-heading p {
+  color: hsl(229, 6%, 66%);
+  margin-top: 1rem;
+  font-size: 0.85rem;
+}
+.card img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0 1.5rem 1.5rem 0;
+}
+
+/* Different Card Border Colors */
+.card-blue {
+  border-top: 3px solid hsl(212, 86%, 64%);
+}
+.card-red {
+  border-top: 3px solid hsl(0, 78%, 62%);
+}
+.card-cyan {
+  border-top: 3px solid hsl(180, 62%, 55%);
+}
+.card-orange {
+  border-top: 3px solid hsl(34, 97%, 64%);
+}
+
+/* Grid Layout */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.5rem;
+  align-items: center;
+  justify-items: center;
+}
+
 /* Footer */
 .attribution {
   font-size: 11px;
