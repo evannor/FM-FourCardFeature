@@ -1,11 +1,21 @@
+:root {
+  --primary-red: hsl(0, 78%, 62%);
+  --primary-cyan: hsl(180, 62%, 55%);
+  --primary-orange: hsl(34, 97%, 64%);
+  --primary-blue: hsl(212, 86%, 64%);
+  --neu-vdblue: hsl(234, 12%, 34%);
+  --neu-grayishblue: hsl(229, 6%, 66%);
+  --neu-vlgray: hsl(0, 0%, 98%);
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 body {
-  background: hsl(0, 0%, 98%);
+  background: var(--neu-vlgray);
   font-family: "Poppins", sans-serif;
-  color: hsl(234, 12%, 34%);
+  color: var(--neu-vdblue);
   font-size: 15px;
 }
 
@@ -27,7 +37,7 @@ body {
 }
 .heading p {
   padding: 1rem 10.5rem;
-  color: hsl(229, 6%, 66%);
+  color: var(--neu-grayishblue);
 }
 
 /* Card Styles */
@@ -48,7 +58,7 @@ body {
   font-size: 1.15rem;
 }
 .card-heading p {
-  color: hsl(229, 6%, 66%);
+  color: var(--neu-grayishblue);
   margin-top: 1rem;
   font-size: 0.85rem;
 }
@@ -61,16 +71,16 @@ body {
 
 /* Different Card Border Colors */
 .card-blue {
-  border-top: 3px solid hsl(212, 86%, 64%);
+  border-top: 3px solid var(--primary-blue);
 }
 .card-red {
-  border-top: 3px solid hsl(0, 78%, 62%);
+  border-top: 3px solid var(--primary-red);
 }
 .card-cyan {
-  border-top: 3px solid hsl(180, 62%, 55%);
+  border-top: 3px solid var(--primary-cyan);
 }
 .card-orange {
-  border-top: 3px solid hsl(34, 97%, 64%);
+  border-top: 3px solid var(--primary-orange);
 }
 
 /* Grid Layout */
